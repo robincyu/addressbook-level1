@@ -26,9 +26,10 @@
   add []\[;] p/12345 e/valid@e.mail
   add Valid Name p/not_numbers e/valid@e.mail
   add Valid Name p/12345 e/notAnEmail
+  add Valid Name p/12345 e/thisEndsInADot.
 
   # should add correctly
-  add Adam Brown p/111111 e/adam@gmail.com
+  add Azusagawa Kaede p/111111 e/"Azusagawa Kaede"@[192.168.2.1]
   list
   add Betsy Choo p/222222 e/benchoo@nus.edu.sg
   list
